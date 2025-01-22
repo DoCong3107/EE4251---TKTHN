@@ -1,0 +1,11 @@
+../Core/LoRa_lib/lora.c:12:9:lora_read_reg	3
+../Core/LoRa_lib/lora.c:25:6:lora_write_reg	3
+../Core/LoRa_lib/lora.c:35:9:lora_init	2
+../Core/LoRa_lib/lora.c:62:5:lora_prasePacket	5
+../Core/LoRa_lib/lora.c:86:9:lora_available	1
+../Core/LoRa_lib/lora.c:90:9:lora_read	2
+../Core/LoRa_lib/lora.c:97:9:lora_begin_packet	2
+../Core/LoRa_lib/lora.c:109:6:lora_tx	3
+../Core/LoRa_lib/lora.c:121:9:lora_end_packet	3
+../Core/LoRa_lib/lora.c:134:6:lora_set_frequency	1
+../Core/LoRa_lib/lora.c:140:6:lora_set_bandwidth	1

@@ -1,0 +1,5 @@
+../Core/Src/main.c:76:2:__io_putchar	1
+../Core/Src/main.c:92:6:listen_Broadcast	6
+../Core/Src/main.c:140:6:send_register	1
+../Core/Src/main.c:150:6:check_and_parse_STT	2
+../Core/Src/main.c:159:5:listen_STT	7

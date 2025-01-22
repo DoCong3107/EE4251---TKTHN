@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"phanbietngatcungvector\startup_stm32f103xb.o"
+"phanbietngatcungvector\main.o"
+"phanbietngatcungvector\stm32f1xx_it.o"
+"phanbietngatcungvector\stm32f1xx_hal_msp.o"
+"phanbietngatcungvector\stm32f1xx_hal_gpio_ex.o"
+"phanbietngatcungvector\stm32f1xx_hal_tim.o"
+"phanbietngatcungvector\stm32f1xx_hal_tim_ex.o"
+"phanbietngatcungvector\stm32f1xx_hal.o"
+"phanbietngatcungvector\stm32f1xx_hal_rcc.o"
+"phanbietngatcungvector\stm32f1xx_hal_rcc_ex.o"
+"phanbietngatcungvector\stm32f1xx_hal_gpio.o"
+"phanbietngatcungvector\stm32f1xx_hal_dma.o"
+"phanbietngatcungvector\stm32f1xx_hal_cortex.o"
+"phanbietngatcungvector\stm32f1xx_hal_pwr.o"
+"phanbietngatcungvector\stm32f1xx_hal_flash.o"
+"phanbietngatcungvector\stm32f1xx_hal_flash_ex.o"
+"phanbietngatcungvector\stm32f1xx_hal_exti.o"
+"phanbietngatcungvector\system_stm32f1xx.o"
+--strict --scatter "Phanbietngatcungvector\Phanbietngatcungvector.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Phanbietngatcungvector.map" -o Phanbietngatcungvector\Phanbietngatcungvector.axf

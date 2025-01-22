@@ -1,0 +1,4 @@
+../Core/Src/main.c:52:5:main	32	static
+../Core/Src/main.c:126:6:SystemClock_Config	72	static
+../Core/Src/main.c:169:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:179:6:Send_register	80	static
